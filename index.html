@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <title>La gran carrera</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="title">
+        <img src="./img/portada.jpg"/>
+        <h1>LA GRAN CARRERA</h1>
+    </div>
+    <div class="contentBar">
+        <div class="contentSelect" id="contentDesp">
+            <select id="desp">
+                <option value="0">Selecciona el numero de participantes</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <i></i>
+        </div>
+        <div class="contentButtons">
+            <button id="btnIniciar" type="button">Iniciar</button>
+            <button id="btnParar" type="button">Parar</button>
+            <button id="btnReiniciar" type="button">Reiniciar</a></button>
+        </div>
+    </div>
+    <div class="pistaCarreras">
+        <img src="./img/pista.jpg"/>
+        <div class="coches">
+            <div id=coche1><img src="./img/car1.png" alt="Car 1"/></div>
+            <div id=coche2><img src="./img/car2.png" alt="Car 2"/></div>
+            <div id=coche3><img src="./img/car3.png" alt="Car 3"/></div>
+            <div id=coche4><img src="./img/car4.png" alt="Car 4"/></div>
+            <div id=coche5><img src="./img/car5.png" alt="Car 5"/></div>
+            <div id=coche6><img src="./img/car6.png" alt="Car 6"/></div>
+            <div id=coche7><img src="./img/car7.png" alt="Car 7"/></div>
+            <div id=coche8><img src="./img/car8.png" alt="Car 8"/></div>
+            <div id=coche9><img src="./img/car9.png" alt="Car 9"/></div>
+        </div>
+    </div>
+    <div class="marcador">
+        <h2>Marcador</h2>
+        <table>
+            <tr>    <th>Posición</th>   <th>Tiempo</th> <th>Participante</th>   </tr>
+            <tr>    <td>Primero</td>    <td id=t1></td> <td id=n1></td>         </tr>
+            <tr>    <td>Segundo</td>    <td id=t2></td> <td id=n2></td>         </tr>
+            <tr>    <td>Tercero</td>    <td id=t3></td> <td id=n3></td>         </tr>
+            <tr>    <td>Cuarto</td>     <td id=t4></td> <td id=n4></td>         </tr>
+            <tr>    <td>Quinto</td>     <td id=t5></td> <td id=n5></td>         </tr>
+            <tr>    <td>Sexto</td>      <td id=t6></td> <td id=n6></td>         </tr>
+            <tr>    <td>Septimo</td>    <td id=t7></td> <td id=n7></td>         </tr>
+            <tr>    <td>Octavo</td>     <td id=t8></td> <td id=n8></td>         </tr>
+            <tr>    <td>Noveno</td>     <td id=t9></td> <td id=n9></td>         </tr>
+        </table>
+    </div>
+    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</body>
+</html>
